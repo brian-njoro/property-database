@@ -1,5 +1,5 @@
 CREATE TABLE Renter (
-    RenterNumber INT PRIMARY KEY,
+    RenterNumber INTEGER PRIMARY KEY AUTOINCREMENT,
     FirstName VARCHAR(50),
     MiddleName VARCHAR(50),
     LastName VARCHAR(50),
@@ -9,3 +9,6 @@ CREATE TABLE Renter (
     BranchNumber INT,
     FOREIGN KEY (BranchNumber) REFERENCES Branch(BranchNumber)
 );
+
+
+-- DROP TABLE Renter;
