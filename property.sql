@@ -1,5 +1,5 @@
 CREATE TABLE Property (
-    PropertyNumber INTEGER PRIMARY KEY,
+    PropertyNumber INTEGER PRIMARY KEY AUTOINCREMENT,
     Street TEXT,
     StreetNumber TEXT,
     City TEXT,
@@ -8,3 +8,5 @@ CREATE TABLE Property (
     OwnerNumber INTEGER,
     FOREIGN KEY (OwnerNumber) REFERENCES PropertyOwner(OwnerNumber)
 );
+
+-- DROP TABLE Property;
