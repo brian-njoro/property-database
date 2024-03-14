@@ -6,3 +6,5 @@ CREATE TABLE RentalAgreement (
     RenterNumber INT,
     FOREIGN KEY (RenterNumber) REFERENCES Renter(RenterNumber)
 );
+
+
