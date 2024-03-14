@@ -1,4 +1,5 @@
 CREATE TABLE Newspaper (
-    id INTEGER PRIMARY KEY,
-    NewspaperName VARCHAR(100) PRIMARY KEY
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    NewspaperName VARCHAR(100)
 );
+
