@@ -1,5 +1,5 @@
 CREATE TABLE RentalAgreement (
-    RentalNumber INT PRIMARY KEY,
+    RentalNumber INTEGER PRIMARY KEY AUTOINCREMENT,
     RentalDate DATE,
     StartDate DATE,
     EndDate DATE,
@@ -8,3 +8,4 @@ CREATE TABLE RentalAgreement (
 );
 
 
+-- DROP TABLE RentalAgreement;
