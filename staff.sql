@@ -1,5 +1,5 @@
 CREATE TABLE StaffMember (
-    StaffNumber INT PRIMARY KEY,
+    StaffNumber INTEGER PRIMARY KEY AUTOINCREMENT,
     Address VARCHAR(100),
     FirstName VARCHAR(50),
     MiddleName VARCHAR(50),
